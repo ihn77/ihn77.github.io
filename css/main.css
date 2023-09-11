@@ -1,0 +1,79 @@
+/* Спецификация */
+html {
+	font-size: 15px;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: gold;
+	overflow-x: hidden;
+}
+
+ul, li {
+	display: block;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+a, a:hover, a:active, a:focus,
+button, input, button:hover, button:active, button:focus,
+input:focus, input:active {
+	text-decoration: none;
+	outline: none;
+}
+
+.container {
+	position: relative;
+}
+
+.upper {
+	text-transform: uppercase;
+}
+
+.bolder {
+	font-weight: 800;
+}
+
+/***************************************************************************************/
+
+header {
+	background: black;
+	padding: 0px 0px 0px 0px;
+}
+
+.logo {
+	margin-top: 20px;
+}
+
+.menu {
+	margin: 31px 0px 0px 0px;
+}
+
+.menu__item {
+	float: left;
+}
+
+.menu__item a {
+	color: gold;
+	text-transform: uppercase;
+	font-weight: 800;
+	border-radius: 60px;
+	padding: 8px 18px;
+	font-size: 0.8rem;
+}
+
+.menu__item a:hover {
+	background: gold;
+	color: goldenrod;
+	text-decoration: none;
+}
+
+.contacts__phone {
+	font-size: 0.9rem;
+	color: gold;
+	margin-bottom: 14px;
+	float: right;
+	margin: 31px 0px 0px 0px;
+	
+}
