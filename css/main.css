@@ -1,0 +1,81 @@
+body {
+	font-family: Arial, Tahoma, sans-serif;
+	font-size: 15px;
+	padding: 0px;
+	margin: 0px;
+	background: url(../img/fon.jpg) center/100% no-repeat fixed;
+}
+
+div, p, input, button, form {
+	box-sizing: border-box;
+}
+
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+}
+
+#header {
+	background: black;
+	color: gold;
+	padding: 0px 0px;
+}
+
+.logo {
+	font-weight: bold;
+	float: left;
+	margin-right: 15px;
+}
+
+.main-menu {
+	float: left;
+	padding: 30px;
+	margin: 0px;
+}
+
+.menu-item {
+	float: left;
+	margin: 0px 120px 0px 0px;
+	display: block;
+	font-size: 32px;
+}
+
+.menu-item a {
+	color: gold;
+	
+}
+
+.phone {
+	font-weight: bold;
+	font-size: 32px;
+	float: right;
+	padding: 30px;
+}
+
+#first {
+	border: 3px solid silver;
+	width: 503px;
+	height: 450px;
+	border-radius: 50px;
+	position: absolute;
+	bottom: 110px;
+	margin: 0px 50px;
+	background-color: #d9d9d990;
+}
+p {
+	text-align: center;
+	position: relative;
+	top: 225px;
+}
+
+#description {
+	border: 3px solid silver;
+	width: 503px;
+	height: 450px;
+	border-radius: 50px;
+	position: absolute;
+	bottom: 110px;
+	right: 50px;
+	background-color: #d9d9d990;
+}
